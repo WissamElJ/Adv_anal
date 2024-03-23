@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_pdf_viewer import pdf_viewer
 import base64
 
-st.write("Link to [github]: (https://github.com/WissamElJ/Churn)")
+st.write("Link to [github](https://github.com/WissamElJ/Churn)")
     # Convert to utf-8
 with open("Advanced_Analytics.pdf", "rb") as file:
     base64_pdf = base64.b64encode(file.read()).decode('utf-8')
